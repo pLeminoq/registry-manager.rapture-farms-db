@@ -1,0 +1,6 @@
+[submodule "registry-manager.unit-template-db"]
+	path = registry-manager.unit-template-db
+	url = https://github.com/DivineThreepwood/registry-manager.unit-template-db.git
+[submodule "registry-manager.device-class-db"]
+	path = registry-manager.device-class-db
+	url = https://github.com/DivineThreepwood/registry-manager.device-class-db.git

@@ -1,1 +1,2 @@
-# registry-manager.rapture-farms-db
+# registry-manager.csra-db
+The csra registry manager db.
