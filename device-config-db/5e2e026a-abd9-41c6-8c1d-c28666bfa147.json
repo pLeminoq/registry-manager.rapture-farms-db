@@ -16,7 +16,14 @@
     ]
   },
   "bound_to_unit_host": true,
-  "meta_config": {},
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "2"
+      }
+    ]
+  },
   "enabling_state": {
     "value": "ENABLED"
   },
