@@ -1,0 +1,133 @@
+{
+  "id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+  "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+  "label": "Bedside Lamp",
+  "unit_host_id": "d7d8b9d4-4ef6-40a0-9c65-8192c5eef3a7",
+  "type": "COLORABLE_LIGHT",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Bedside_Lamp"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "colorablelight",
+      "bedside_lamp"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__BrightnessStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27__home_living__ColorableLight__Bedside_Lamp__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

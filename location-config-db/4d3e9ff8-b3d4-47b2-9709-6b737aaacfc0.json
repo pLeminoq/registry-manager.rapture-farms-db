@@ -1,0 +1,135 @@
+{
+  "id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+  "label": "Corridor",
+  "type": "LOCATION",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "Corridor",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "corridor"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "service_template": {
+        "type": "PRESENCE_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "TILE",
+    "root": false,
+    "tile_config": {
+      "meta_config": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "eac885e7-fbb3-49b8-8594-96fd40ae8d82",
+  "label": "Main Light 1",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Main_Light_1",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "main_light_1"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "1"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "13a6a135-1344-4dce-9023-e982b9a1e54a"
+    ]
+  }
+}

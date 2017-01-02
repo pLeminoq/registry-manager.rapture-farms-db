@@ -1,0 +1,44 @@
+{
+  "id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
+  "label": "Shelf Sensor",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Shelf_Sensor",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "shelf_sensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "1"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
+    "unit_id": [
+      "29c32111-c34c-464a-8f4b-49282191b1e0",
+      "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
+      "fc9218ec-d964-4ffc-ad20-e21a8699e79b",
+      "e5e02d6a-4476-4ac5-98be-bc028754c719",
+      "301be715-1f96-4b38-95df-79b1dcd42c6d"
+    ]
+  }
+}

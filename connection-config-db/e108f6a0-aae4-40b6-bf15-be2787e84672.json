@@ -1,0 +1,54 @@
+{
+  "id": "e108f6a0-aae4-40b6-bf15-be2787e84672",
+  "label": "Living Window",
+  "type": "CONNECTION",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "Living_Window",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "living_window"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "e108f6a0-aae4-40b6-bf15-be2787e84672",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "e108f6a0-aae4-40b6-bf15-be2787e84672",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "e108f6a0-aae4-40b6-bf15-be2787e84672",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "WINDOW",
+    "tile_id": [
+      "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "c72b6b0e-d13b-4507-9d93-d705cfbb032c"
+    ]
+  }
+}

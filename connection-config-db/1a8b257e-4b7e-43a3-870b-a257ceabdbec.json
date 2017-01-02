@@ -1,0 +1,54 @@
+{
+  "id": "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+  "label": "Bath Door",
+  "type": "CONNECTION",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "Bath_Door",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "bath_door"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0"
+    ]
+  }
+}

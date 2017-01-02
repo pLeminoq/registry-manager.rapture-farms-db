@@ -1,0 +1,42 @@
+{
+  "id": "29c32111-c34c-464a-8f4b-49282191b1e0",
+  "unit_template_config_id": "Fibaro_FGMS-001_BATTERY_0",
+  "label": "Shelf Sensor",
+  "unit_host_id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Living_Shelf_Sensor"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "battery",
+      "shelf_sensor"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_MotionSensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "29c32111-c34c-464a-8f4b-49282191b1e0",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

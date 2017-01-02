@@ -1,0 +1,33 @@
+{
+  "id": "5e2e026a-abd9-41c6-8c1d-c28666bfa147",
+  "label": "Main Light 2",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Main_Light_2",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "main_light_2"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "9eea3ee4-73a7-4f20-b435-6c5437dd3734"
+    ]
+  }
+}

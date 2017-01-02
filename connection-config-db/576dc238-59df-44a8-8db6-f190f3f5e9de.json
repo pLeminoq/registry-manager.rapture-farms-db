@@ -1,0 +1,63 @@
+{
+  "id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
+  "label": "Living Door",
+  "type": "CONNECTION",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "Living_Door",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "connection",
+      "living_door"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
+      "service_template": {
+        "type": "DOOR_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
+      "service_template": {
+        "type": "PASSAGE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
+      "service_template": {
+        "type": "WINDOW_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "connection_config": {
+    "type": "DOOR",
+    "tile_id": [
+      "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+      "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0"
+    ]
+  }
+}

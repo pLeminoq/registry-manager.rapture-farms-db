@@ -1,0 +1,191 @@
+{
+  "id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+  "label": "Home",
+  "type": "LOCATION",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "Home",
+    "position": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "qw": 1.0,
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0
+      }
+    },
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "SMOKE_ALARM_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "BLIND_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "MOTION_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    },
+    {
+      "binding_config": {
+        "meta_config": {}
+      },
+      "unit_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+      "service_template": {
+        "type": "PRESENCE_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "location_config": {
+    "type": "ZONE",
+    "root": true,
+    "child_id": [
+      "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
+      "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+      "c72b6b0e-d13b-4507-9d93-d705cfbb032c"
+    ],
+    "unit_id": [
+      "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+      "bc92daa7-f4ec-404d-a08e-cc05fa8f0136",
+      "29c32111-c34c-464a-8f4b-49282191b1e0",
+      "d7d8b9d4-4ef6-40a0-9c65-8192c5eef3a7",
+      "fb25d777-6b08-482d-9dd8-4b890fe210ad",
+      "eac885e7-fbb3-49b8-8594-96fd40ae8d82",
+      "576dc238-59df-44a8-8db6-f190f3f5e9de",
+      "fc9218ec-d964-4ffc-ad20-e21a8699e79b",
+      "301be715-1f96-4b38-95df-79b1dcd42c6d",
+      "5e2e026a-abd9-41c6-8c1d-c28666bfa147",
+      "e108f6a0-aae4-40b6-bf15-be2787e84672",
+      "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
+      "9eea3ee4-73a7-4f20-b435-6c5437dd3734",
+      "e5e02d6a-4476-4ac5-98be-bc028754c719",
+      "871efec3-ae76-4c79-a768-09c17b857d22",
+      "13a6a135-1344-4dce-9023-e982b9a1e54a"
+    ],
+    "tile_config": {
+      "meta_config": {}
+    }
+  }
+}

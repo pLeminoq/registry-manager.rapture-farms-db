@@ -1,0 +1,33 @@
+{
+  "id": "d7d8b9d4-4ef6-40a0-9c65-8192c5eef3a7",
+  "label": "Bedside Lamp",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Bedside_Lamp",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "bedside_lamp"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
+    "unit_id": [
+      "bc92daa7-f4ec-404d-a08e-cc05fa8f0136"
+    ]
+  }
+}
