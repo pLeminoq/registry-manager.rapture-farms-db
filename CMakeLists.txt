@@ -1,0 +1,70 @@
+### Maintainer: mpohling[@techfak.uni-bielefeld.de] ###
+
+cmake_minimum_required(VERSION 2.8)
+PROJECT(csra-db)
+SET(CMAKE_BUILD_TYPE distribution)
+
+IF(NOT DEFINED REM_DB_HOME)
+    SET(REM_DB_HOME "share/bco/registry/db")
+ENDIF ()
+
+IF(NOT DEFINED REM_DB_GIT_URL)
+    EXECUTE_PROCESS(COMMAND git config --get remote.origin.url OUTPUT_VARIABLE REM_DB_GIT_URL OUTPUT_STRIP_TRAILING_WHITESPACE)
+    MESSAGE("Found remote url: ${REM_DB_GIT_URL}")
+ENDIF ()
+
+IF (NOT CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+    SET(INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX})
+    MESSAGE("-- Use given install PREFIX: ${INSTALL_PREFIX}")
+ELSEIF (DEFINED ENV{prefix})
+    SET(INSTALL_PREFIX $ENV{prefix})
+    MESSAGE("-- Found global install PREFIX: ${INSTALL_PREFIX}")
+    MESSAGE("---- Set -DCMAKE_INSTALL_PREFIX for using a custom prefix.")
+ELSE ()
+    SET(INSTALL_PREFIX "$ENV{HOME}/.local/share")
+    MESSAGE("-- Use default prefix: ${INSTALL_PREFIX}")
+    MESSAGE("---- Set -DCMAKE_INSTALL_PREFIX for using a custom prefix.")
+ENDIF()
+
+SET(DB_DOWNLOAD_FOLDER ${CMAKE_BINARY_DIR}/db-clone)
+
+IF (EXISTS ${DB_DOWNLOAD_FOLDER})
+    FILE(REMOVE_RECURSE ${DB_DOWNLOAD_FOLDER})
+ENDIF()
+
+file(MAKE_DIRECTORY ${DB_DOWNLOAD_FOLDER})
+
+MESSAGE("Download repository ${REM_DB_GIT_URL} into ${DB_DOWNLOAD_FOLDER}")
+EXECUTE_PROCESS(COMMAND git clone ${REM_DB_GIT_URL} ${DB_DOWNLOAD_FOLDER})
+
+
+IF(DEFINED REM_DB_GIT_PATH)
+    MESSAGE("Checkout ${REM_DB_GIT_PATH}")
+    EXECUTE_PROCESS(COMMAND git -C ${DB_DOWNLOAD_FOLDER} checkout ${REM_DB_GIT_PATH})
+ENDIF ()
+
+IF (EXISTS ${INSTALL_PREFIX}/${REM_DB_HOME})
+    IF(${FORCE})
+        FILE(REMOVE_RECURSE ${INSTALL_PREFIX}/${REM_DB_HOME})
+    ELSE()
+        MESSAGE(SEND_ERROR "Abort installation! Database cannot be overwritten. Set -DFORCE=true to overwrite the database.")
+    ENDIF()
+ENDIF()
+
+### Init and update submodules ###
+MESSAGE("Init & update submodules...")
+EXECUTE_PROCESS(COMMAND ../init_update.sh -C ${DB_DOWNLOAD_FOLDER})
+
+### Create db folder ###
+FILE(MAKE_DIRECTORY ${INSTALL_PREFIX}/${REM_DB_HOME})
+
+### Install data into volume ###
+INSTALL(DIRECTORY "${DB_DOWNLOAD_FOLDER}/" DESTINATION ${INSTALL_PREFIX}/${REM_DB_HOME})
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/install.sh" DESTINATION ${INSTALL_PREFIX}/${REM_DB_HOME})
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/init_update.sh" DESTINATION ${INSTALL_PREFIX}/${REM_DB_HOME})
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/reset.sh" DESTINATION ${INSTALL_PREFIX}/${REM_DB_HOME})
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/upgrade.sh" DESTINATION ${INSTALL_PREFIX}/${REM_DB_HOME})
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/device-class-db/reset.sh" DESTINATION "${INSTALL_PREFIX}/${REM_DB_HOME}/device-class-db/")
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/unit-template-db/reset.sh" DESTINATION "${INSTALL_PREFIX}/${REM_DB_HOME}/unit-template-db/")
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/agent-class-db/reset.sh" DESTINATION "${INSTALL_PREFIX}/${REM_DB_HOME}/agent-class-db/")
+INSTALL(PROGRAMS "${DB_DOWNLOAD_FOLDER}/app-class-db/reset.sh" DESTINATION "${INSTALL_PREFIX}/${REM_DB_HOME}/app-class-db/")

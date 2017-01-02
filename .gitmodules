@@ -1,6 +1,12 @@
-[submodule "registry-manager.unit-template-db"]
-	path = registry-manager.unit-template-db
-	url = https://github.com/DivineThreepwood/registry-manager.unit-template-db.git
-[submodule "registry-manager.device-class-db"]
-	path = registry-manager.device-class-db
-	url = https://github.com/DivineThreepwood/registry-manager.device-class-db.git
+[submodule "unit-template-db"]
+	path = unit-template-db
+	url = https://github.com/openbase/bco.registry.unit-template-db.git
+[submodule "device-class-db"]
+	path = device-class-db
+	url = https://github.com/openbase/bco.registry.device-class-db.git
+[submodule "agent-class-db"]
+	path = agent-class-db
+	url = https://github.com/openbase/bco.registry.agent-class-db.git
+[submodule "app-class-db"]
+	path = app-class-db
+	url = https://github.com/openbase/bco.registry.app-class-db.git
