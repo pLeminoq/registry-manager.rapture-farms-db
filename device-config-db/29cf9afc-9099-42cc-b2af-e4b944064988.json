@@ -1,0 +1,41 @@
+{
+  "id": "29cf9afc-9099-42cc-b2af-e4b944064988",
+  "label": "Power Plug",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Power_Plug",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "power_plug"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "5"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "78859b91-c31f-4605-aaa6-546c6fc1202b",
+    "unit_id": [
+      "dab9211c-4b45-403f-8158-0d6139cb6d09",
+      "2ce0b889-fa32-46f4-9e26-f75926f1a9a9"
+    ]
+  }
+}

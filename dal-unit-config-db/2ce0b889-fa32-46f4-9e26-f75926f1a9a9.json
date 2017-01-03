@@ -1,0 +1,60 @@
+{
+  "id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
+  "unit_template_config_id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
+  "label": "Power Plug",
+  "unit_host_id": "29cf9afc-9099-42cc-b2af-e4b944064988",
+  "type": "POWER_SWITCH",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Living_Power_Plug"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "powerswitch",
+      "power_plug"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
+      "service_template": {
+        "type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
