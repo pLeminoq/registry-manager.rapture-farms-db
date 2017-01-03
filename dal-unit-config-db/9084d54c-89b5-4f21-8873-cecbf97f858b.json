@@ -1,22 +1,22 @@
 {
-  "id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
-  "unit_template_config_id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
-  "label": "Power Plug",
-  "unit_host_id": "29cf9afc-9099-42cc-b2af-e4b944064988",
-  "type": "POWER_SWITCH",
+  "id": "9084d54c-89b5-4f21-8873-cecbf97f858b",
+  "unit_template_config_id": "7e88c019-90ec-472e-b594-b6e664a2a318_LIGHT_0",
+  "label": "Main Light Switch_Q1",
+  "unit_host_id": "a975a9cc-8261-4757-9380-d7c27c825e1d",
+  "type": "LIGHT",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Power_Plug"
+    "transformation_frame_id": "Main_Light_Switch_Q1"
   },
   "scope": {
     "component": [
       "home",
       "living",
-      "powerswitch",
-      "power_plug"
+      "light",
+      "main_light_switch_q1"
     ]
   },
-  "bound_to_unit_host": true,
+  "bound_to_unit_host": false,
   "service_config": [
     {
       "binding_config": {
@@ -25,12 +25,12 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Double_Switch_2__home_living__Light__Main_Light_Switch_Q1__PowerStateService"
             }
           ]
         }
       },
-      "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
+      "unit_id": "9084d54c-89b5-4f21-8873-cecbf97f858b",
       "service_template": {
         "type": "POWER_STATE_SERVICE"
       }
@@ -42,15 +42,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Double_Switch_2__home_living__Light__Main_Light_Switch_Q1__PowerStateService"
             }
           ]
         }
       },
-      "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
+      "unit_id": "9084d54c-89b5-4f21-8873-cecbf97f858b",
       "service_template": {
         "type": "POWER_STATE_SERVICE",
-        "pattern": "OPERATION"
+        "pattern": "OPERATION",
+        "meta_config": {}
       }
     }
   ],

@@ -1,0 +1,42 @@
+{
+  "id": "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
+  "unit_template_config_id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_0",
+  "label": "Main Light Switch_S1",
+  "unit_host_id": "a975a9cc-8261-4757-9380-d7c27c825e1d",
+  "type": "BUTTON",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Main_Light_Switch_S1"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "button",
+      "main_light_switch_s1"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Double_Switch_2__home_living__Button__Main_Light_Switch_S1__ButtonStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
+      "service_template": {
+        "type": "BUTTON_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

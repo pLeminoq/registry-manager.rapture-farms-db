@@ -6,7 +6,7 @@
   "type": "TEMPERATURE_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Shelf_Sensor"
+    "transformation_frame_id": "Living_Shelf_Sensor"
   },
   "scope": {
     "component": [

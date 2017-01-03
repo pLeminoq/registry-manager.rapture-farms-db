@@ -6,7 +6,7 @@
   "type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Power_Plug"
+    "transformation_frame_id": "Living_Power_Plug"
   },
   "scope": {
     "component": [

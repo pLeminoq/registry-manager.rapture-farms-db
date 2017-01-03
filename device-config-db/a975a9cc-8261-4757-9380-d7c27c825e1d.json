@@ -1,0 +1,43 @@
+{
+  "id": "a975a9cc-8261-4757-9380-d7c27c825e1d",
+  "label": "Main Light Switch",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Main_Light_Switch",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "main_light_switch"
+    ]
+  },
+  "bound_to_unit_host": false,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "3"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "7e88c019-90ec-472e-b594-b6e664a2a318",
+    "unit_id": [
+      "9084d54c-89b5-4f21-8873-cecbf97f858b",
+      "bda46922-f9d0-42d3-9797-e10a0e7616dd",
+      "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
+      "3050ccb9-c063-4f74-8050-a26d9f8fb568"
+    ]
+  }
+}
