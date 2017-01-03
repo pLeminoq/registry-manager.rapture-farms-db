@@ -1,0 +1,42 @@
+{
+  "id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
+  "label": "Living Door Reed Contact",
+  "type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Living_Door_Reed_Contact",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "device",
+      "living_door_reed_contact"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_BINDING_DEVICE_ID",
+        "value": "2"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "serial_number": "00474856",
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+    },
+    "device_class_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c",
+    "unit_id": [
+      "07d3ef5c-97d8-4602-958e-4769c2cca43b",
+      "7f15b376-a86d-4bef-a6d8-eddca604f58d"
+    ]
+  }
+}

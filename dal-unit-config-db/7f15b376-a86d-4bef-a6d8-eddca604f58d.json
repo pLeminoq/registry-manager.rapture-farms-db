@@ -1,0 +1,42 @@
+{
+  "id": "7f15b376-a86d-4bef-a6d8-eddca604f58d",
+  "unit_template_config_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_BATTERY_0",
+  "label": "Living Door Reed Contact",
+  "unit_host_id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
+  "type": "BATTERY",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Living_Door_Reed_Contact"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "battery",
+      "living_door_reed_contact"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "7f15b376-a86d-4bef-a6d8-eddca604f58d",
+      "service_template": {
+        "type": "BATTERY_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

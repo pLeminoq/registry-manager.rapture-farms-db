@@ -1,0 +1,42 @@
+{
+  "id": "07d3ef5c-97d8-4602-958e-4769c2cca43b",
+  "unit_template_config_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_REED_CONTACT_0",
+  "label": "Living Door Reed Contact",
+  "unit_host_id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
+  "type": "REED_CONTACT",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Living_Living_Door_Reed_Contact"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "reedcontact",
+      "living_door_reed_contact"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Fibaro_Door_Window_Sensor__home_living__ReedContact__Living_Door_Reed_Contact__ContactStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "07d3ef5c-97d8-4602-958e-4769c2cca43b",
+      "service_template": {
+        "type": "CONTACT_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
