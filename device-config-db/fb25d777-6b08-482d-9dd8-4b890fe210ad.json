@@ -20,7 +20,7 @@
     "entry": [
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
-        "value": "1"
+        "value": "2"
       }
     ]
   },
