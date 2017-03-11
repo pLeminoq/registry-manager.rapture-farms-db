@@ -1,18 +1,18 @@
 {
-  "id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
-  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+  "id": "7e64c8bd-25cd-4306-a58d-4c48eee999bd",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
   "label": "Shelf Sensor",
   "unit_host_id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
-  "type": "BRIGHTNESS_SENSOR",
+  "type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Shelf_Sensor"
+    "transformation_frame_id": "Shelf_Sensor"
   },
   "scope": {
     "component": [
       "home",
       "living",
-      "brightnesssensor",
+      "lightsensor",
       "shelf_sensor"
     ]
   },
@@ -25,14 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__BrightnessSensor__Shelf_Sensor__BrightnessStateService"
+              "value": "Fibaro_MotionSensor__home_living__LightSensor__Shelf_Sensor__IlluminanceStateService"
             }
           ]
         }
       },
-      "unit_id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
+      "unit_id": "7e64c8bd-25cd-4306-a58d-4c48eee999bd",
       "service_template": {
-        "type": "BRIGHTNESS_STATE_SERVICE"
+        "type": "ILLUMINANCE_STATE_SERVICE"
       }
     }
   ],
