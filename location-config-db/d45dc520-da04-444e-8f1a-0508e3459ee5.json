@@ -119,6 +119,73 @@
         "pattern": "PROVIDER",
         "meta_config": {}
       }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "SMOKE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "STANDBY_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "STANDBY_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "ILLUMINANCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "d45dc520-da04-444e-8f1a-0508e3459ee5",
+      "service_template": {
+        "type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
     }
   ],
   "meta_config": {},

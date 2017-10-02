@@ -1,9 +1,7 @@
 {
   "id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
-  "unit_template_config_id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
   "label": "Shelf Sensor",
   "unit_host_id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
-  "type": "BRIGHTNESS_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
     "transformation_frame_id": "Living_Shelf_Sensor"
@@ -32,11 +30,13 @@
       },
       "unit_id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
       "service_template": {
-        "type": "BRIGHTNESS_STATE_SERVICE"
+        "type": "ILLUMINANCE_STATE_SERVICE"
       }
     }
   ],
   "enabling_state": {
     "value": "ENABLED"
-  }
+  },
+  "type": "LIGHT_SENSOR",
+  "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0"
 }
