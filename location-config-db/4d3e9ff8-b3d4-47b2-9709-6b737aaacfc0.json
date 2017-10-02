@@ -30,7 +30,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "7dc922f5-9ea5-47a9-952e-2d9ca2617f41",
         "type": "BLIND_STATE_SERVICE",
         "meta_config": {}
       }
@@ -38,7 +39,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "24bb00be-2a7c-40dc-bd57-b19aa68c5afa",
         "type": "COLOR_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
@@ -47,7 +49,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "92d761db-b50b-4178-834c-cdaa12295b4b",
         "type": "POWER_CONSUMPTION_STATE_SERVICE",
         "meta_config": {}
       }
@@ -55,7 +58,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "7da3da33-6aac-4d90-b244-602c38c0f1c2",
         "type": "SMOKE_ALARM_STATE_SERVICE",
         "meta_config": {}
       }
@@ -63,7 +67,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "58380399-eb96-4ed4-a6f6-9c9ffc039eb2",
         "type": "TEMPERATURE_STATE_SERVICE",
         "meta_config": {}
       }
@@ -71,7 +76,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "7dc922f5-9ea5-47a9-952e-2d9ca2617f41",
         "type": "BLIND_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -80,7 +86,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "24bb00be-2a7c-40dc-bd57-b19aa68c5afa",
         "type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -89,7 +96,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "9ff37ad9-73e1-490a-9e09-6880d1a014bb",
         "type": "MOTION_STATE_SERVICE",
         "meta_config": {}
       }
@@ -97,7 +105,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
         "type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -106,7 +115,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
         "type": "POWER_STATE_SERVICE",
         "meta_config": {}
       }
@@ -114,7 +124,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "0391831f-c54f-4c93-85a1-add6d957b931",
         "type": "PRESENCE_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
@@ -123,7 +134,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "c87f4193-41c7-4c1c-81c2-e76efdd5ed86",
         "type": "SMOKE_STATE_SERVICE",
         "meta_config": {}
       }
@@ -131,7 +143,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "dec036f8-de29-4530-9f71-e84aa3e27cf2",
         "type": "STANDBY_STATE_SERVICE",
         "meta_config": {}
       }
@@ -139,7 +152,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "dec036f8-de29-4530-9f71-e84aa3e27cf2",
         "type": "STANDBY_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -148,7 +162,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "d3f5e8d9-e38b-4fde-b28d-ff5bb69eb30c",
         "type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "meta_config": {}
       }
@@ -156,7 +171,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "d3f5e8d9-e38b-4fde-b28d-ff5bb69eb30c",
         "type": "TARGET_TEMPERATURE_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
@@ -165,7 +181,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "d4f36c66-da70-4a45-bd9f-ad0d8b6a36f3",
         "type": "ILLUMINANCE_STATE_SERVICE",
         "meta_config": {}
       }
@@ -173,7 +190,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "76cc9def-9a1d-4f4e-8365-1131da7e8735",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "meta_config": {}
       }
@@ -181,7 +199,8 @@
     {
       "binding_config": {},
       "unit_id": "4d3e9ff8-b3d4-47b2-9709-6b737aaacfc0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "76cc9def-9a1d-4f4e-8365-1131da7e8735",
         "type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}

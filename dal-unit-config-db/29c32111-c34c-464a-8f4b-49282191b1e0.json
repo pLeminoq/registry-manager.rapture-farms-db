@@ -6,7 +6,7 @@
   "type": "BATTERY",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Shelf_Sensor"
+    "transformation_frame_id": "Shelf_Sensor"
   },
   "scope": {
     "component": [
@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
+              "value": "Motion_Sensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
             }
           ]
         }
       },
       "unit_id": "29c32111-c34c-464a-8f4b-49282191b1e0",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f214eaa9-2f5a-4c86-91cd-dee599b98037",
         "type": "BATTERY_STATE_SERVICE"
       }
     }

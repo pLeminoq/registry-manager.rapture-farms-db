@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__MotionDetector__Shelf_Sensor__MotionStateService"
+              "value": "Motion_Sensor__home_living__MotionDetector__Shelf_Sensor__MotionStateService"
             }
           ]
         }
       },
       "unit_id": "fc9218ec-d964-4ffc-ad20-e21a8699e79b",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "9ff37ad9-73e1-490a-9e09-6880d1a014bb",
         "type": "MOTION_STATE_SERVICE"
       }
     }

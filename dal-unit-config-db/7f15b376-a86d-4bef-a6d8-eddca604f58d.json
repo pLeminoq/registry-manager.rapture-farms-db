@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
+              "value": "Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
             }
           ]
         }
       },
       "unit_id": "7f15b376-a86d-4bef-a6d8-eddca604f58d",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f214eaa9-2f5a-4c86-91cd-dee599b98037",
         "type": "BATTERY_STATE_SERVICE"
       }
     }

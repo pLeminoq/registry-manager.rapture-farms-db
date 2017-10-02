@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureStateService"
+              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureStateService"
             }
           ]
         }
       },
       "unit_id": "301be715-1f96-4b38-95df-79b1dcd42c6d",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "58380399-eb96-4ed4-a6f6-9c9ffc039eb2",
         "type": "TEMPERATURE_STATE_SERVICE"
       }
     },
@@ -42,13 +43,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureAlarmStateService"
             }
           ]
         }
       },
       "unit_id": "301be715-1f96-4b38-95df-79b1dcd42c6d",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "b9090851-733e-4c2f-b9e5-1dbd8067ace3",
         "type": "TEMPERATURE_ALARM_STATE_SERVICE",
         "pattern": "PROVIDER"
       }

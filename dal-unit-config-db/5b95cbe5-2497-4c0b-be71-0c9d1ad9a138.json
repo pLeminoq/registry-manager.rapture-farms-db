@@ -31,7 +31,8 @@
         }
       },
       "unit_id": "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "b4d8fe93-76f7-4369-85bd-4a6712e4d5fd",
         "type": "BUTTON_STATE_SERVICE"
       }
     }

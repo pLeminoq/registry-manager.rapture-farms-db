@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerConsumptionSensor__Power_Plug__PowerConsumptionStateService"
+              "value": "Power_Plug_2__home_living__PowerConsumptionSensor__Power_Plug__PowerConsumptionStateService"
             }
           ]
         }
       },
       "unit_id": "dab9211c-4b45-403f-8158-0d6139cb6d09",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "92d761db-b50b-4178-834c-cdaa12295b4b",
         "type": "POWER_CONSUMPTION_STATE_SERVICE"
       }
     }

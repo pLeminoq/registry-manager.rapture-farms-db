@@ -25,13 +25,14 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__TamperDetector__Shelf_Sensor__TamperStateService"
+              "value": "Motion_Sensor__home_living__TamperDetector__Shelf_Sensor__TamperStateService"
             }
           ]
         }
       },
       "unit_id": "e5e02d6a-4476-4ac5-98be-bc028754c719",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "e05742a0-75ec-403c-af72-437575685b93",
         "type": "TAMPER_STATE_SERVICE"
       }
     }

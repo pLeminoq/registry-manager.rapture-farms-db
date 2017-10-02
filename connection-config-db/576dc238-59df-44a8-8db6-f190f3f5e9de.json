@@ -20,7 +20,8 @@
         "meta_config": {}
       },
       "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "f8320c71-1d0e-42bd-a20a-8f499e7bd722",
         "type": "DOOR_STATE_SERVICE",
         "meta_config": {}
       },
@@ -31,7 +32,8 @@
         "meta_config": {}
       },
       "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "e119db97-ef53-4236-84e3-5cc592cb948a",
         "type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
       },
@@ -42,7 +44,8 @@
         "meta_config": {}
       },
       "unit_id": "576dc238-59df-44a8-8db6-f190f3f5e9de",
-      "service_template": {
+      "service_description": {
+        "service_template_id": "55156572-3b07-4d78-b090-b1237bb3b38a",
         "type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
       },
