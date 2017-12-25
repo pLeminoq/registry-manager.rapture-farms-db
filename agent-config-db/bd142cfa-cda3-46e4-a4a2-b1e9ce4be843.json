@@ -1,0 +1,63 @@
+{
+  "id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
+  "label": "Main Light Power State Synchronizer",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Main_Light_Power_State_Synchronizer",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "agent",
+      "powerstatesynchroniser",
+      "main_light_power_state_synchronizer"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "SOURCE",
+        "value": "9084d54c-89b5-4f21-8873-cecbf97f858b"
+      },
+      {
+        "key": "TARGET_1",
+        "value": "13a6a135-1344-4dce-9023-e982b9a1e54a"
+      },
+      {
+        "key": "TARGET_2",
+        "value": "9eea3ee4-73a7-4f20-b435-6c5437dd3734"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",
+    "autostart": true
+  }
+}

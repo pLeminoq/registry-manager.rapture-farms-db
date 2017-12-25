@@ -25,7 +25,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureStateService"
+              "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureStateService"
             }
           ]
         }
@@ -43,7 +43,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureAlarmStateService"
+              "value": "Fibaro_MotionSensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureAlarmStateService"
             }
           ]
         }

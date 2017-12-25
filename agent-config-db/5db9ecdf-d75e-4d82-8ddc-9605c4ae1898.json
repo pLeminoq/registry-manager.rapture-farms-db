@@ -1,0 +1,59 @@
+{
+  "id": "5db9ecdf-d75e-4d82-8ddc-9605c4ae1898",
+  "label": "Bedside Lamp Power State Synchronizer",
+  "type": "AGENT",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Bedside_Lamp_Power_State_Synchronizer",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "living",
+      "agent",
+      "powerstatesynchroniser",
+      "bedside_lamp_power_state_synchronizer"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "5db9ecdf-d75e-4d82-8ddc-9605c4ae1898",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "5db9ecdf-d75e-4d82-8ddc-9605c4ae1898",
+      "service_description": {
+        "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
+        "type": "ACTIVATION_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "SOURCE",
+        "value": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9"
+      },
+      {
+        "key": "TARGET_1",
+        "value": "bc92daa7-f4ec-404d-a08e-cc05fa8f0136"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "agent_config": {
+    "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",
+    "autostart": true
+  }
+}

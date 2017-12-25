@@ -215,6 +215,10 @@
     "type": "TILE",
     "root": false,
     "tile_config": {
+      "connection_id": [
+        "1a8b257e-4b7e-43a3-870b-a257ceabdbec",
+        "576dc238-59df-44a8-8db6-f190f3f5e9de"
+      ],
       "meta_config": {}
     }
   }

@@ -25,7 +25,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
+              "value": "Fibaro_Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
             }
           ]
         }

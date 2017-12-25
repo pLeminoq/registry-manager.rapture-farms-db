@@ -25,7 +25,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
+              "value": "Fibaro_MotionSensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
             }
           ]
         }
