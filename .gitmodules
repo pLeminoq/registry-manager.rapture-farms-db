@@ -13,6 +13,3 @@
 [submodule "service-template-db"]
 	path = service-template-db
 	url = https://github.com/openbase/bco.registry.service-template-db.git
-[submodule "user-activity-class-db"]
-	path = user-activity-class-db
-	url = https://github.com/openbase/bco.registry.user-activity-class-db.git
