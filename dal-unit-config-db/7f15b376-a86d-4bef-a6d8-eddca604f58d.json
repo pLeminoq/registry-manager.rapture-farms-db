@@ -1,12 +1,24 @@
 {
   "id": "7f15b376-a86d-4bef-a6d8-eddca604f58d",
   "unit_template_config_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_BATTERY_0",
-  "label": "Living Door Reed Contact",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Living Door Reed Contact"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Battery-2"
+  ],
   "unit_host_id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
-  "type": "BATTERY",
+  "unit_type": "BATTERY",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Door_Reed_Contact"
+    "transformation_frame_id": "Battery-2"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
+              "value": "Door_Window_Sensor__home_living__Battery__Living_Door_Reed_Contact__BatteryStateService"
             }
           ]
         }
       },
       "unit_id": "7f15b376-a86d-4bef-a6d8-eddca604f58d",
       "service_description": {
-        "service_template_id": "f214eaa9-2f5a-4c86-91cd-dee599b98037",
-        "type": "BATTERY_STATE_SERVICE"
+        "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
+        "service_type": "BATTERY_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

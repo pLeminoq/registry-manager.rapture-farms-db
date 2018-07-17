@@ -1,12 +1,24 @@
 {
   "id": "07d3ef5c-97d8-4602-958e-4769c2cca43b",
   "unit_template_config_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_REED_CONTACT_0",
-  "label": "Living Door Reed Contact",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Living Door Reed Contact"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "ReedContact-1"
+  ],
   "unit_host_id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
-  "type": "REED_CONTACT",
+  "unit_type": "REED_CONTACT",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Living_Door_Reed_Contact"
+    "transformation_frame_id": "ReedContact-1"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_Door_Window_Sensor__home_living__ReedContact__Living_Door_Reed_Contact__ContactStateService"
+              "value": "Door_Window_Sensor__home_living__ReedContact__Living_Door_Reed_Contact__ContactStateService"
             }
           ]
         }
       },
       "unit_id": "07d3ef5c-97d8-4602-958e-4769c2cca43b",
       "service_description": {
-        "service_template_id": "831c9459-388c-4176-896a-68e2d545f05a",
-        "type": "CONTACT_STATE_SERVICE"
+        "service_template_id": "7a3eaa02-2d76-4c93-9c66-4da45ea7bafa",
+        "service_type": "CONTACT_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

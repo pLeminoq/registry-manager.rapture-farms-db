@@ -1,10 +1,22 @@
 {
   "id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
-  "label": "Main Light Power State Synchronizer",
-  "type": "AGENT",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Main Light Power State Synchronizer"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Agent-3"
+  ],
+  "unit_type": "AGENT",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Main_Light_Power_State_Synchronizer",
+    "transformation_frame_id": "Agent-3",
     "shape": {}
   },
   "scope": {
@@ -22,7 +34,7 @@
       "unit_id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -32,7 +44,7 @@
       "unit_id": "bd142cfa-cda3-46e4-a4a2-b1e9ce4be843",
       "service_description": {
         "service_template_id": "f75053d2-7345-4928-ade6-eb3b4486ced9",
-        "type": "ACTIVATION_STATE_SERVICE",
+        "service_type": "ACTIVATION_STATE_SERVICE",
         "meta_config": {}
       }
     }

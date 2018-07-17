@@ -1,12 +1,24 @@
 {
   "id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
   "unit_template_config_id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
-  "label": "Power Plug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Power Plug"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerSwitch-1"
+  ],
   "unit_host_id": "29cf9afc-9099-42cc-b2af-e4b944064988",
-  "type": "POWER_SWITCH",
+  "unit_type": "POWER_SWITCH",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Power_Plug"
+    "transformation_frame_id": "PowerSwitch-1"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Power_Plug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
             }
           ]
         }
       },
       "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
       "service_description": {
-        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
-        "type": "POWER_STATE_SERVICE"
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     },
     {
@@ -43,15 +56,15 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Power_Plug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
             }
           ]
         }
       },
       "unit_id": "2ce0b889-fa32-46f4-9e26-f75926f1a9a9",
       "service_description": {
-        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
-        "type": "POWER_STATE_SERVICE",
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION"
       }
     }

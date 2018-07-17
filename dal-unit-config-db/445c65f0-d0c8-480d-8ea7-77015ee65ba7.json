@@ -1,12 +1,24 @@
 {
   "id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
   "unit_template_config_id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-  "label": "Shelf Sensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shelf Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "LightSensor-1"
+  ],
   "unit_host_id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
-  "type": "LIGHT_SENSOR",
+  "unit_type": "LIGHT_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Shelf_Sensor"
+    "transformation_frame_id": "LightSensor-1"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__LightSensor__Shelf_Sensor__IlluminanceStateService"
+              "value": "Motion_Sensor__home_living__LightSensor__Shelf_Sensor__IlluminanceStateService"
             }
           ]
         }
       },
       "unit_id": "445c65f0-d0c8-480d-8ea7-77015ee65ba7",
       "service_description": {
-        "service_template_id": "d4f36c66-da70-4a45-bd9f-ad0d8b6a36f3",
-        "type": "ILLUMINANCE_STATE_SERVICE"
+        "service_template_id": "02342f5f-357c-4636-8f52-3eefcb65d060",
+        "service_type": "ILLUMINANCE_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

@@ -1,12 +1,24 @@
 {
   "id": "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
   "unit_template_config_id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_0",
-  "label": "Main Light Switch_S1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Main Light Switch_S1"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Button-1"
+  ],
   "unit_host_id": "a975a9cc-8261-4757-9380-d7c27c825e1d",
-  "type": "BUTTON",
+  "unit_type": "BUTTON",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Main_Light_Switch_S1"
+    "transformation_frame_id": "Button-1"
   },
   "scope": {
     "component": [
@@ -32,8 +44,9 @@
       },
       "unit_id": "5b95cbe5-2497-4c0b-be71-0c9d1ad9a138",
       "service_description": {
-        "service_template_id": "b4d8fe93-76f7-4369-85bd-4a6712e4d5fd",
-        "type": "BUTTON_STATE_SERVICE"
+        "service_template_id": "1d50901a-5cc1-4595-9180-334c3f3317dc",
+        "service_type": "BUTTON_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

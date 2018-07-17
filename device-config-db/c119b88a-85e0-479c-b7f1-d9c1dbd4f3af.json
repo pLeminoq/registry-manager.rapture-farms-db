@@ -1,10 +1,22 @@
 {
   "id": "c119b88a-85e0-479c-b7f1-d9c1dbd4f3af",
-  "label": "Living Door Reed Contact",
-  "type": "DEVICE",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Living Door Reed Contact"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-1"
+  ],
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Door_Reed_Contact",
+    "transformation_frame_id": "Device-1",
     "shape": {}
   },
   "scope": {

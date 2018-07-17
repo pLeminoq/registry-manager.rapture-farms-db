@@ -1,10 +1,22 @@
 {
   "id": "a975a9cc-8261-4757-9380-d7c27c825e1d",
-  "label": "Main Light Switch",
-  "type": "DEVICE",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Main Light Switch"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-3"
+  ],
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Main_Light_Switch",
+    "transformation_frame_id": "Device-3",
     "shape": {}
   },
   "scope": {

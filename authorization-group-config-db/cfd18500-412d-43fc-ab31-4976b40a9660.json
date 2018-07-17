@@ -1,0 +1,54 @@
+{
+  "id": "cfd18500-412d-43fc-ab31-4976b40a9660",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Admin"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AdminGroup"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AdminGroup"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "admin"
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "025f2943-6b52-46eb-855e-b2064508eda6"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "cfd18500-412d-43fc-ab31-4976b40a9660",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

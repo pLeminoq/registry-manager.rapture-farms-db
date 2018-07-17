@@ -1,12 +1,24 @@
 {
   "id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
   "unit_template_config_id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
-  "label": "Main Light 1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Main Light 1"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "ColorableLight-3"
+  ],
   "unit_host_id": "eac885e7-fbb3-49b8-8594-96fd40ae8d82",
-  "type": "COLORABLE_LIGHT",
+  "unit_type": "COLORABLE_LIGHT",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Main_Light_1"
+    "transformation_frame_id": "ColorableLight-3"
   },
   "scope": {
     "component": [
@@ -25,15 +37,17 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
       "service_description": {
-        "service_template_id": "76cc9def-9a1d-4f4e-8365-1131da7e8735",
-        "type": "BRIGHTNESS_STATE_SERVICE"
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
       }
     },
     {
@@ -43,51 +57,15 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__BrightnessStateService"
             }
           ]
         }
       },
       "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
       "service_description": {
-        "service_template_id": "24bb00be-2a7c-40dc-bd57-b19aa68c5afa",
-        "type": "COLOR_STATE_SERVICE"
-      }
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__PowerStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
-      "service_description": {
-        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
-        "type": "POWER_STATE_SERVICE"
-      }
-    },
-    {
-      "binding_config": {
-        "binding_id": "OPENHAB",
-        "meta_config": {
-          "entry": [
-            {
-              "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__BrightnessStateService"
-            }
-          ]
-        }
-      },
-      "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
-      "service_description": {
-        "service_template_id": "76cc9def-9a1d-4f4e-8365-1131da7e8735",
-        "type": "BRIGHTNESS_STATE_SERVICE",
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -99,15 +77,35 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__ColorStateService"
             }
           ]
         }
       },
       "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
       "service_description": {
-        "service_template_id": "24bb00be-2a7c-40dc-bd57-b19aa68c5afa",
-        "type": "COLOR_STATE_SERVICE",
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__ColorStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }
@@ -119,15 +117,35 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27__home_living__ColorableLight__Main_Light_1__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__PowerStateService"
             }
           ]
         }
       },
       "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
       "service_description": {
-        "service_template_id": "6cc382e5-179c-4a4a-aa1a-74aed4e66d68",
-        "type": "POWER_STATE_SERVICE",
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": "OPENHAB",
+        "meta_config": {
+          "entry": [
+            {
+              "key": "OPENHAB_BINDING_ITEM_ID",
+              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Main_Light_1__PowerStateService"
+            }
+          ]
+        }
+      },
+      "unit_id": "13a6a135-1344-4dce-9023-e982b9a1e54a",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
       }

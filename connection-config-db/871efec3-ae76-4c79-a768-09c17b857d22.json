@@ -1,10 +1,22 @@
 {
   "id": "871efec3-ae76-4c79-a768-09c17b857d22",
-  "label": "Bath Window",
-  "type": "CONNECTION",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Bath Window"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Connection-3"
+  ],
+  "unit_type": "CONNECTION",
   "placement_config": {
     "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
-    "transformation_frame_id": "Bath_Window",
+    "transformation_frame_id": "Connection-3",
     "shape": {}
   },
   "scope": {
@@ -19,8 +31,8 @@
       "binding_config": {},
       "unit_id": "871efec3-ae76-4c79-a768-09c17b857d22",
       "service_description": {
-        "service_template_id": "f8320c71-1d0e-42bd-a20a-8f499e7bd722",
-        "type": "DOOR_STATE_SERVICE",
+        "service_template_id": "eb544f83-26c3-45f6-93da-5b9599de6049",
+        "service_type": "DOOR_STATE_SERVICE",
         "meta_config": {}
       }
     },
@@ -28,8 +40,8 @@
       "binding_config": {},
       "unit_id": "871efec3-ae76-4c79-a768-09c17b857d22",
       "service_description": {
-        "service_template_id": "e119db97-ef53-4236-84e3-5cc592cb948a",
-        "type": "PASSAGE_STATE_SERVICE",
+        "service_template_id": "a2400b26-4cee-47a8-b78c-8511f37e2359",
+        "service_type": "PASSAGE_STATE_SERVICE",
         "meta_config": {}
       }
     },
@@ -37,8 +49,8 @@
       "binding_config": {},
       "unit_id": "871efec3-ae76-4c79-a768-09c17b857d22",
       "service_description": {
-        "service_template_id": "55156572-3b07-4d78-b090-b1237bb3b38a",
-        "type": "WINDOW_STATE_SERVICE",
+        "service_template_id": "355916ac-6a3e-45c3-878c-ef5786ccb223",
+        "service_type": "WINDOW_STATE_SERVICE",
         "meta_config": {}
       }
     }

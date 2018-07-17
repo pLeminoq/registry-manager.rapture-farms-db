@@ -1,10 +1,22 @@
 {
   "id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
-  "label": "Shelf Sensor",
-  "type": "DEVICE",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shelf Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-5"
+  ],
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Shelf_Sensor",
+    "transformation_frame_id": "Device-5",
     "shape": {}
   },
   "scope": {

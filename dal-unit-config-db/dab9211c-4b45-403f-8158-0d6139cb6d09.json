@@ -1,12 +1,24 @@
 {
   "id": "dab9211c-4b45-403f-8158-0d6139cb6d09",
   "unit_template_config_id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0",
-  "label": "Power Plug",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Power Plug"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "PowerConsumptionSensor-1"
+  ],
   "unit_host_id": "29cf9afc-9099-42cc-b2af-e4b944064988",
-  "type": "POWER_CONSUMPTION_SENSOR",
+  "unit_type": "POWER_CONSUMPTION_SENSOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Power_Plug"
+    "transformation_frame_id": "PowerConsumptionSensor-1"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "PowerPlug_2__home_living__PowerConsumptionSensor__Power_Plug__PowerConsumptionStateService"
+              "value": "Power_Plug_2__home_living__PowerConsumptionSensor__Power_Plug__PowerConsumptionStateService"
             }
           ]
         }
       },
       "unit_id": "dab9211c-4b45-403f-8158-0d6139cb6d09",
       "service_description": {
-        "service_template_id": "92d761db-b50b-4178-834c-cdaa12295b4b",
-        "type": "POWER_CONSUMPTION_STATE_SERVICE"
+        "service_template_id": "b7cec81b-6387-4b77-a2c2-2d97726a4476",
+        "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],

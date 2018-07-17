@@ -1,10 +1,22 @@
 {
   "id": "d7d8b9d4-4ef6-40a0-9c65-8192c5eef3a7",
-  "label": "Bedside Lamp",
-  "type": "DEVICE",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Bedside Lamp"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-4"
+  ],
+  "unit_type": "DEVICE",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Bedside_Lamp",
+    "transformation_frame_id": "Device-4",
     "shape": {}
   },
   "scope": {

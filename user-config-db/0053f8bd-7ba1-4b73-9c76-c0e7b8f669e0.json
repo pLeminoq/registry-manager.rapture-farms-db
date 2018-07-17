@@ -1,0 +1,43 @@
+{
+  "id": "0053f8bd-7ba1-4b73-9c76-c0e7b8f669e0",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "BCO (System User)"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "BCOUser"
+  ],
+  "unit_type": "USER",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "BCOUser"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "user",
+      "bco"
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "user_config": {
+    "first_name": "System",
+    "last_name": "User",
+    "user_name": "BCO"
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    }
+  }
+}

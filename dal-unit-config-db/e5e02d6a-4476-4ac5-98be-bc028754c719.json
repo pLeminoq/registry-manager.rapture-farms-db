@@ -1,12 +1,24 @@
 {
   "id": "e5e02d6a-4476-4ac5-98be-bc028754c719",
   "unit_template_config_id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
-  "label": "Shelf Sensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Shelf Sensor"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "TamperDetector-1"
+  ],
   "unit_host_id": "fb25d777-6b08-482d-9dd8-4b890fe210ad",
-  "type": "TAMPER_DETECTOR",
+  "unit_type": "TAMPER_DETECTOR",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Living_Shelf_Sensor"
+    "transformation_frame_id": "TamperDetector-1"
   },
   "scope": {
     "component": [
@@ -25,15 +37,16 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Fibaro_MotionSensor__home_living__TamperDetector__Shelf_Sensor__TamperStateService"
+              "value": "Motion_Sensor__home_living__TamperDetector__Shelf_Sensor__TamperStateService"
             }
           ]
         }
       },
       "unit_id": "e5e02d6a-4476-4ac5-98be-bc028754c719",
       "service_description": {
-        "service_template_id": "e05742a0-75ec-403c-af72-437575685b93",
-        "type": "TAMPER_STATE_SERVICE"
+        "service_template_id": "cf6dbca4-a12b-4eea-b842-dff75a53c68c",
+        "service_type": "TAMPER_STATE_SERVICE",
+        "pattern": "PROVIDER"
       }
     }
   ],
