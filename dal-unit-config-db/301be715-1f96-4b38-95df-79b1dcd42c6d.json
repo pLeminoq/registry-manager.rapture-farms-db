@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Shelf Sensor"
+          "Regalsensor"
         ]
       }
     ]
@@ -23,9 +23,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "temperaturesensor",
-      "shelf_sensor"
+      "regalsensor"
     ]
   },
   "bound_to_unit_host": true,
@@ -37,7 +37,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureAlarmStateService"
+              "value": "Motion_Sensor__home_wohnzimmer__TemperatureSensor__Regalsensor__TemperatureAlarmStateService"
             }
           ]
         }
@@ -56,7 +56,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__TemperatureSensor__Shelf_Sensor__TemperatureStateService"
+              "value": "Motion_Sensor__home_wohnzimmer__TemperatureSensor__Regalsensor__TemperatureStateService"
             }
           ]
         }

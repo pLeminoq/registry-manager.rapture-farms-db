@@ -22,7 +22,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "agent",
       "powerstatesynchroniser",
       "bedside_lamp_power_state_synchronizer"

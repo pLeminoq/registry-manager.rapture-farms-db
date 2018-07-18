@@ -22,7 +22,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "agent",
       "powerstatesynchroniser",
       "main_light_power_state_synchronizer"

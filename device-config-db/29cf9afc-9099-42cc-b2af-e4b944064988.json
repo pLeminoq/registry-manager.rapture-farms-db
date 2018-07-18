@@ -3,9 +3,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Power Plug"
+          "Steckdose am Bett"
         ]
       }
     ]
@@ -22,9 +22,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
-      "power_plug"
+      "steckdose_am_bett"
     ]
   },
   "bound_to_unit_host": true,

@@ -3,9 +3,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Shelf Sensor"
+          "Regalsensor"
         ]
       }
     ]
@@ -22,9 +22,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
-      "shelf_sensor"
+      "regalsensor"
     ]
   },
   "bound_to_unit_host": true,

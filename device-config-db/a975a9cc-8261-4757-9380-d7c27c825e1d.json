@@ -3,9 +3,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Main Light Switch"
+          "Lichtschalter"
         ]
       }
     ]
@@ -22,9 +22,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
-      "main_light_switch"
+      "lichtschalter"
     ]
   },
   "bound_to_unit_host": false,

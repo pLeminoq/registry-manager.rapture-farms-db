@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Shelf Sensor"
+          "Regalsensor"
         ]
       }
     ]
@@ -23,9 +23,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "battery",
-      "shelf_sensor"
+      "regalsensor"
     ]
   },
   "bound_to_unit_host": true,
@@ -37,7 +37,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Motion_Sensor__home_living__Battery__Shelf_Sensor__BatteryStateService"
+              "value": "Motion_Sensor__home_wohnzimmer__Battery__Regalsensor__BatteryStateService"
             }
           ]
         }

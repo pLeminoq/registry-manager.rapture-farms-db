@@ -3,9 +3,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Main Light 1"
+          "Deckenlampe 1"
         ]
       }
     ]
@@ -22,9 +22,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
-      "main_light_1"
+      "deckenlampe_1"
     ]
   },
   "bound_to_unit_host": true,

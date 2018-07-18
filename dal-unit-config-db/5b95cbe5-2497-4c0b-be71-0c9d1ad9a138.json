@@ -23,7 +23,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "button",
       "main_light_switch_s1"
     ]
@@ -37,7 +37,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Double_Switch_2__home_living__Button__Main_Light_Switch_S1__ButtonStateService"
+              "value": "Double_Switch_2__home_wohnzimmer__Button__Main_Light_Switch_S1__ButtonStateService"
             }
           ]
         }

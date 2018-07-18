@@ -22,7 +22,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "app",
       "partylighttilefollower",
       "party_app"

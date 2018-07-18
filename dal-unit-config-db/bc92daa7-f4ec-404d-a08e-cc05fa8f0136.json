@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Bedside Lamp"
+          "Nachttischlampe"
         ]
       }
     ]
@@ -23,9 +23,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "colorablelight",
-      "bedside_lamp"
+      "nachttischlampe"
     ]
   },
   "bound_to_unit_host": true,
@@ -37,7 +37,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__BrightnessStateService"
             }
           ]
         }
@@ -57,7 +57,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__BrightnessStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__BrightnessStateService"
             }
           ]
         }
@@ -77,7 +77,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__ColorStateService"
             }
           ]
         }
@@ -97,7 +97,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__ColorStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__ColorStateService"
             }
           ]
         }
@@ -117,7 +117,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__PowerStateService"
             }
           ]
         }
@@ -137,7 +137,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Philips_Hue_E27_Gen1__home_living__ColorableLight__Bedside_Lamp__PowerStateService"
+              "value": "Philips_Hue_E27_Gen1__home_wohnzimmer__ColorableLight__Nachttischlampe__PowerStateService"
             }
           ]
         }

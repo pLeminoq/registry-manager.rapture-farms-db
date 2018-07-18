@@ -3,9 +3,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Bedside Lamp"
+          "Nachttischlampe"
         ]
       }
     ]
@@ -22,9 +22,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
-      "bedside_lamp"
+      "nachttischlampe"
     ]
   },
   "bound_to_unit_host": true,

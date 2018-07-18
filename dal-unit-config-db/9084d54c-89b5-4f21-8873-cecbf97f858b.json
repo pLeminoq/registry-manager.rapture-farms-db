@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Main Light Switch_Q1"
+          "Lichtschalter"
         ]
       }
     ]
@@ -18,14 +18,15 @@
   "unit_type": "LIGHT",
   "placement_config": {
     "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
-    "transformation_frame_id": "Light-1"
+    "transformation_frame_id": "Light-1",
+    "shape": {}
   },
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "light",
-      "main_light_switch_q1"
+      "lichtschalter"
     ]
   },
   "bound_to_unit_host": false,
@@ -37,7 +38,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Double_Switch_2__home_living__Light__Main_Light_Switch_Q1__PowerStateService"
+              "value": "Double_Switch_2__home_wohnzimmer__Light__Lichtschalter__PowerStateService"
             }
           ]
         }
@@ -48,7 +49,8 @@
         "service_type": "POWER_STATE_SERVICE",
         "pattern": "PROVIDER",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     },
     {
       "binding_config": {
@@ -57,7 +59,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Double_Switch_2__home_living__Light__Main_Light_Switch_Q1__PowerStateService"
+              "value": "Double_Switch_2__home_wohnzimmer__Light__Lichtschalter__PowerStateService"
             }
           ]
         }
@@ -68,9 +70,11 @@
         "service_type": "POWER_STATE_SERVICE",
         "pattern": "OPERATION",
         "meta_config": {}
-      }
+      },
+      "meta_config": {}
     }
   ],
+  "meta_config": {},
   "enabling_state": {
     "value": "ENABLED"
   }

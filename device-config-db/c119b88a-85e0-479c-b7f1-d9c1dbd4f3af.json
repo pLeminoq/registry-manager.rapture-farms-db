@@ -22,7 +22,7 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "device",
       "living_door_reed_contact"
     ]

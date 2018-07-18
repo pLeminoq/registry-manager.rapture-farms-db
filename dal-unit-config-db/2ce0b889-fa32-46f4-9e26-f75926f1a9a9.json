@@ -4,9 +4,9 @@
   "label": {
     "entry": [
       {
-        "key": "en",
+        "key": "de",
         "value": [
-          "Power Plug"
+          "Steckdose am Bett"
         ]
       }
     ]
@@ -23,9 +23,9 @@
   "scope": {
     "component": [
       "home",
-      "living",
+      "wohnzimmer",
       "powerswitch",
-      "power_plug"
+      "steckdose_am_bett"
     ]
   },
   "bound_to_unit_host": true,
@@ -37,7 +37,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Power_Plug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Power_Plug_2__home_wohnzimmer__PowerSwitch__Steckdose_am_Bett__PowerStateService"
             }
           ]
         }
@@ -56,7 +56,7 @@
           "entry": [
             {
               "key": "OPENHAB_BINDING_ITEM_ID",
-              "value": "Power_Plug_2__home_living__PowerSwitch__Power_Plug__PowerStateService"
+              "value": "Power_Plug_2__home_wohnzimmer__PowerSwitch__Steckdose_am_Bett__PowerStateService"
             }
           ]
         }

@@ -1,0 +1,119 @@
+{
+  "id": "90c65755-938d-4717-816d-45e99c7aff67",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Deckenlampe"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "UnitGroup-1"
+  ],
+  "unit_type": "UNIT_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "UnitGroup-1",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "unitgroup",
+      "deckenlampe"
+    ]
+  },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "90c65755-938d-4717-816d-45e99c7aff67",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "90c65755-938d-4717-816d-45e99c7aff67",
+      "service_description": {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "90c65755-938d-4717-816d-45e99c7aff67",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "90c65755-938d-4717-816d-45e99c7aff67",
+      "service_description": {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    }
+  ],
+  "meta_config": {},
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "unit_group_config": {
+    "member_id": [
+      "13a6a135-1344-4dce-9023-e982b9a1e54a",
+      "9eea3ee4-73a7-4f20-b435-6c5437dd3734"
+    ],
+    "unit_type": "COLORABLE_LIGHT",
+    "service_description": [
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "35f4375a-2ed2-4df2-bcf1-ebc090ca07f9",
+        "service_type": "BRIGHTNESS_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "0f9527d7-d6f8-4a09-af14-1a8d91c264bd",
+        "service_type": "COLOR_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "PROVIDER",
+        "meta_config": {}
+      },
+      {
+        "service_template_id": "c3724ed5-4092-4142-8355-c1aea22d208f",
+        "service_type": "POWER_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    ]
+  }
+}
