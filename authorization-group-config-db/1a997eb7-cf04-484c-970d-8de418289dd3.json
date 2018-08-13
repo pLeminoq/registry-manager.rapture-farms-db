@@ -1,0 +1,57 @@
+{
+  "id": "1a997eb7-cf04-484c-970d-8de418289dd3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "NearFieldLightAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-6"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AuthorizationGroup-6"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "nearfieldlightauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "ce135034-2040-4e32-9098-9acd6d93a5a5"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "1a997eb7-cf04-484c-970d-8de418289dd3",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

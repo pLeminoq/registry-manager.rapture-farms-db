@@ -33,6 +33,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "3"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:8047b1bf:node3"
       }
     ]
   },

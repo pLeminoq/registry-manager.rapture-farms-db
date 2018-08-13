@@ -1,0 +1,62 @@
+{
+  "id": "00d5f25d-4824-4943-9301-188f2c0dd8b5",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "PartyLightTileFollowerAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-14"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AuthorizationGroup-14"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "partylighttilefollowerauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "APP_CLASS_ID",
+        "value": "4a8f3d3e-dda1-45c6-b0e8-5d437cdb9e42"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "a372ec4a-7249-428d-95c5-33dd68cda391"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "00d5f25d-4824-4943-9301-188f2c0dd8b5",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

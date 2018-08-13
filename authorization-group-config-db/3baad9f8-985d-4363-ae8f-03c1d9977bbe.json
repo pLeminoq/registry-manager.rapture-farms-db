@@ -1,0 +1,57 @@
+{
+  "id": "3baad9f8-985d-4363-ae8f-03c1d9977bbe",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "AmbientColorAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-8"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AuthorizationGroup-8"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "ambientcolorauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "ff76a0a9-7977-435a-bca1-04669731ed8f"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "3baad9f8-985d-4363-ae8f-03c1d9977bbe",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

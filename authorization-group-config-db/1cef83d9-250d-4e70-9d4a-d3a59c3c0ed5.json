@@ -1,0 +1,57 @@
+{
+  "id": "1cef83d9-250d-4e70-9d4a-d3a59c3c0ed5",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "HueTestAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-5"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AuthorizationGroup-5"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "huetestauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "51c733c6-2fd6-45fe-9be8-fe1b9514adaa"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "1cef83d9-250d-4e70-9d4a-d3a59c3c0ed5",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

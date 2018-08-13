@@ -25,6 +25,65 @@
       "admin"
     ]
   },
+  "service_config": [
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "14bf74e2-dce4-47c7-9c58-cc85dea24ed5",
+        "service_type": "ACTIVITY_MULTI_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "5d664e5a-6fa3-433a-a1e0-ca81d79aacff",
+        "service_type": "PRESENCE_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "pattern": "OPERATION",
+        "meta_config": {}
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+      "service_description": {
+        "service_template_id": "4537a330-af91-4499-bc3b-3c559e9b6ea0",
+        "service_type": "USER_TRANSIT_STATE_SERVICE",
+        "meta_config": {}
+      }
+    }
+  ],
   "enabling_state": {
     "value": "ENABLED"
   },

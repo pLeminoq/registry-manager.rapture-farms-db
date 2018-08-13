@@ -33,6 +33,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "4"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:8047b1bf:node4"
       }
     ]
   },
@@ -43,7 +47,10 @@
     "serial_number": "00474856",
     "inventory_state": {
       "value": "INSTALLED",
-      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef"
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+      "timestamp": {
+        "time": 1534189399320000
+      }
     },
     "device_class_id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c",
     "unit_id": [

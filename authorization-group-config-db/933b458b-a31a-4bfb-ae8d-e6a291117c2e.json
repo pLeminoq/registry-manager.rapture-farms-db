@@ -1,0 +1,63 @@
+{
+  "id": "933b458b-a31a-4bfb-ae8d-e6a291117c2e",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "PowerStateSynchroniserAuthorizationGroup"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "AuthorizationGroup-7"
+  ],
+  "unit_type": "AUTHORIZATION_GROUP",
+  "placement_config": {
+    "location_id": "674a2360-2247-42a6-8a95-8069a86f98ca",
+    "transformation_frame_id": "AuthorizationGroup-7"
+  },
+  "scope": {
+    "component": [
+      "manager",
+      "authorization",
+      "group",
+      "powerstatesynchroniserauthorizationgroup"
+    ]
+  },
+  "meta_config": {
+    "entry": [
+      {
+        "key": "AGENT_CLASS_ID",
+        "value": "96aed98a-e9d4-402e-a4c4-b0655d448a21"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "authorization_group_config": {
+    "member_id": [
+      "0504592e-117d-45a4-b57a-b0b5c796bb94",
+      "1959e856-b0c5-4682-9672-ec7eee9f3798"
+    ]
+  },
+  "permission_config": {
+    "other_permission": {
+      "read": false,
+      "write": false,
+      "access": false
+    },
+    "group_permission": [
+      {
+        "group_id": "933b458b-a31a-4bfb-ae8d-e6a291117c2e",
+        "permission": {
+          "read": true,
+          "write": true,
+          "access": true
+        }
+      }
+    ]
+  }
+}

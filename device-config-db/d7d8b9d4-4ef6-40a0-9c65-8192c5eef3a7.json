@@ -33,6 +33,10 @@
       {
         "key": "OPENHAB_BINDING_DEVICE_ID",
         "value": "3"
+      },
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "hue:0210:00178821d70d:3"
       }
     ]
   },
