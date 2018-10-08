@@ -1,0 +1,56 @@
+{
+  "id": "59f8de12-cf83-42c2-a26a-7d4a868c0235",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Heizung"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Device-8"
+  ],
+  "unit_type": "DEVICE",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Device-8",
+    "shape": {}
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wohnzimmer",
+      "device",
+      "heizung"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_UID",
+        "value": "zwave:device:8047b1bf:node6"
+      }
+    ]
+  },
+  "enabling_state": {
+    "value": "ENABLED"
+  },
+  "device_config": {
+    "inventory_state": {
+      "value": "INSTALLED",
+      "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+      "timestamp": {
+        "time": 1537211667830000
+      }
+    },
+    "device_class_id": "d3fde421-51f5-405b-b611-c92a392c01a6",
+    "unit_id": [
+      "cd755dff-993b-40b6-ab6a-ec2e827d3da7",
+      "6432d466-846d-43d2-a226-17efca645bc2"
+    ]
+  }
+}

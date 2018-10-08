@@ -1,0 +1,47 @@
+{
+  "id": "6432d466-846d-43d2-a226-17efca645bc2",
+  "unit_template_config_id": "d3fde421-51f5-405b-b611-c92a392c01a6_BATTERY_0",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Heizung"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "Battery-3"
+  ],
+  "unit_host_id": "59f8de12-cf83-42c2-a26a-7d4a868c0235",
+  "unit_type": "BATTERY",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "Battery-3"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wohnzimmer",
+      "battery",
+      "heizung"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": ""
+      },
+      "unit_id": "6432d466-846d-43d2-a226-17efca645bc2",
+      "service_description": {
+        "service_template_id": "d1dd033f-9dae-46fb-9355-a32b0b898db7",
+        "service_type": "BATTERY_STATE_SERVICE"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}

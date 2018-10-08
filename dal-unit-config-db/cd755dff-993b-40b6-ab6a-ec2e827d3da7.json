@@ -1,0 +1,66 @@
+{
+  "id": "cd755dff-993b-40b6-ab6a-ec2e827d3da7",
+  "unit_template_config_id": "d3fde421-51f5-405b-b611-c92a392c01a6_TEMPERATURE_CONTROLLER_0",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Heizung"
+        ]
+      }
+    ]
+  },
+  "alias": [
+    "TemperatureController-1"
+  ],
+  "unit_host_id": "59f8de12-cf83-42c2-a26a-7d4a868c0235",
+  "unit_type": "TEMPERATURE_CONTROLLER",
+  "placement_config": {
+    "location_id": "c7fa0c6c-5652-4318-bdeb-c103edf4ebef",
+    "transformation_frame_id": "TemperatureController-1"
+  },
+  "scope": {
+    "component": [
+      "home",
+      "wohnzimmer",
+      "temperaturecontroller",
+      "heizung"
+    ]
+  },
+  "bound_to_unit_host": true,
+  "service_config": [
+    {
+      "binding_config": {
+        "binding_id": ""
+      },
+      "unit_id": "cd755dff-993b-40b6-ab6a-ec2e827d3da7",
+      "service_description": {
+        "service_template_id": "0512aab5-78cf-4464-b699-078f6f3dfdc9",
+        "service_type": "TEMPERATURE_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {
+        "binding_id": ""
+      },
+      "unit_id": "cd755dff-993b-40b6-ab6a-ec2e827d3da7",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE"
+      }
+    },
+    {
+      "binding_config": {},
+      "unit_id": "cd755dff-993b-40b6-ab6a-ec2e827d3da7",
+      "service_description": {
+        "service_template_id": "84e48be2-8d6d-451f-ab0b-42597b0f258b",
+        "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+        "pattern": "OPERATION"
+      }
+    }
+  ],
+  "enabling_state": {
+    "value": "ENABLED"
+  }
+}
