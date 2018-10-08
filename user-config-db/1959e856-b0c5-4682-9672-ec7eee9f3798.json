@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "main_light_power_state_synchronizer_wohnzimmer"
+      "mainlightpowerstatesynchronizerwohnzimmer"
     ]
   },
   "service_config": [
@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "Main Light Power State Synchronizer@Wohnzimmer",
-    "is_system_user": true
+    "system_user": true,
+    "language": "de"
   },
   "permission_config": {
     "owner_id": "1959e856-b0c5-4682-9672-ec7eee9f3798",

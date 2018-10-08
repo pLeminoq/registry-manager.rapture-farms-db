@@ -25,9 +25,10 @@
       "wohnzimmer",
       "agent",
       "powerstatesynchroniser",
-      "bedside_lamp_power_state_synchronizer"
+      "bedsidelamppowerstatesynchronizer"
     ]
   },
+  "description": {},
   "service_config": [
     {
       "binding_config": {},
@@ -62,7 +63,7 @@
     ]
   },
   "enabling_state": {
-    "value": "ENABLED"
+    "value": "DISABLED"
   },
   "agent_config": {
     "agent_class_id": "96aed98a-e9d4-402e-a4c4-b0655d448a21",

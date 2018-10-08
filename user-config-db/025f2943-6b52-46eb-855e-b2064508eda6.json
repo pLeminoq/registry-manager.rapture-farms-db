@@ -90,9 +90,16 @@
   "user_config": {
     "first_name": "Initial",
     "last_name": "Admin",
-    "user_name": "Admin"
+    "user_name": "Admin",
+    "language": "de"
   },
   "permission_config": {
+    "owner_id": "025f2943-6b52-46eb-855e-b2064508eda6",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
     "other_permission": {
       "read": true,
       "write": true,

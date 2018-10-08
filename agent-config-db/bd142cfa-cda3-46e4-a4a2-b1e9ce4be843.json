@@ -25,7 +25,7 @@
       "wohnzimmer",
       "agent",
       "powerstatesynchroniser",
-      "main_light_power_state_synchronizer"
+      "mainlightpowerstatesynchronizer"
     ]
   },
   "service_config": [

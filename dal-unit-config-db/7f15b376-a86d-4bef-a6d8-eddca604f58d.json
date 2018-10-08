@@ -25,7 +25,7 @@
       "home",
       "wohnzimmer",
       "battery",
-      "living_door_reed_contact"
+      "livingdoorreedcontact"
     ]
   },
   "bound_to_unit_host": true,

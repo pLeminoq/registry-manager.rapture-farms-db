@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "bedside_lamp_power_state_synchronizer_wohnzimmer"
+      "bedsidelamppowerstatesynchronizerwohnzimmer"
     ]
   },
   "service_config": [
@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "Bedside Lamp Power State Synchronizer@Wohnzimmer",
-    "is_system_user": true
+    "system_user": true,
+    "language": "de"
   },
   "permission_config": {
     "owner_id": "0504592e-117d-45a4-b57a-b0b5c796bb94",

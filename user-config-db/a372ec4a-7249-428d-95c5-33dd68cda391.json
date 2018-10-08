@@ -22,7 +22,7 @@
     "component": [
       "manager",
       "user",
-      "party_app_wohnzimmer"
+      "partyappwohnzimmer"
     ]
   },
   "service_config": [
@@ -97,7 +97,8 @@
   },
   "user_config": {
     "user_name": "Party App@Wohnzimmer",
-    "is_system_user": true
+    "system_user": true,
+    "language": "de"
   },
   "permission_config": {
     "owner_id": "a372ec4a-7249-428d-95c5-33dd68cda391",

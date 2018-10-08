@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Cloud ConnectorAuthorizationGroup"
+          "Cloud Connector Authorization Group"
         ]
       }
     ]
@@ -23,7 +23,7 @@
       "manager",
       "authorization",
       "group",
-      "cloud_connectorauthorizationgroup"
+      "cloudconnectorauthorizationgroup"
     ]
   },
   "meta_config": {

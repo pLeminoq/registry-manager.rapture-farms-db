@@ -103,10 +103,16 @@
   "user_config": {
     "first_name": "System",
     "last_name": "User",
-    "user_name": "BCO"
+    "user_name": "BCO",
+    "language": "de"
   },
   "permission_config": {
-    "owner_permission": {},
+    "owner_id": "0053f8bd-7ba1-4b73-9c76-c0e7b8f669e0",
+    "owner_permission": {
+      "read": true,
+      "write": true,
+      "access": true
+    },
     "other_permission": {
       "read": true,
       "write": true,

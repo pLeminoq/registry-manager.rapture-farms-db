@@ -23,7 +23,7 @@
     "component": [
       "home",
       "connection",
-      "living_window"
+      "livingwindow"
     ]
   },
   "service_config": [

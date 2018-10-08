@@ -23,7 +23,7 @@
     "component": [
       "home",
       "connection",
-      "bath_door"
+      "bathdoor"
     ]
   },
   "service_config": [

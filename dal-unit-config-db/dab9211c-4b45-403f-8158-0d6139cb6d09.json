@@ -25,7 +25,7 @@
       "home",
       "wohnzimmer",
       "powerconsumptionsensor",
-      "steckdose_am_bett"
+      "steckdoseambett"
     ]
   },
   "bound_to_unit_host": true,

@@ -6,7 +6,7 @@
       {
         "key": "en",
         "value": [
-          "Main Light Switch_S1"
+          "Main Light Switch S1"
         ]
       }
     ]
@@ -25,7 +25,7 @@
       "home",
       "wohnzimmer",
       "button",
-      "main_light_switch_s1"
+      "mainlightswitchs1"
     ]
   },
   "bound_to_unit_host": false,

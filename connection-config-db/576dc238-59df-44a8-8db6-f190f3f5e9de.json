@@ -23,7 +23,7 @@
     "component": [
       "home",
       "connection",
-      "living_door"
+      "livingdoor"
     ]
   },
   "service_config": [
